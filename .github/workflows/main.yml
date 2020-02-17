@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run main js
       run: 
-        node ${{github.workspace}}/main.js
+        node ${{ github.workspace }}/main.js
     
