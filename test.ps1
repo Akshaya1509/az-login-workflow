@@ -1,5 +1,5 @@
-param (
-    [string]$cred,
- )
+#param (
+ #   [string]$cred,
+ #)
  echo "in test.ps1"
- echo "cred is: $cred"
+ #echo "cred is: $cred"
