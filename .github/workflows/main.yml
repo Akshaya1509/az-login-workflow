@@ -8,8 +8,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/login@v1
     - name: Run main js
-      run: 
-        node ${{ github.workspace }}/main.js
+      run: | 
+        az account show
+        az cloud show
     
